@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport"  name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Land-IA - Cadastro</title>
+    </head>
+    <body>
+        <header>
+            <h1>Land-IA - Cadastre-se</h1>
+            <nav>
+                <a href="./landing.html">Início</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <p>Dicas para uma senha forte:</p>
+                <ol>
+                    <li>Mínimo de 8 caracteres</li>
+                    <li>Use maiúsculas e minúsculas</li>
+                    <li>Combine números, letras e caracteres especiais</li>
+                </ol>
+            </section>
+            <form action="./login.html">
+                <div>
+                    <label for="nome">Nome de usuário</label>
+                    <input id="nome" type="text" />
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Gênero</legend>                        
+                        <input name="genero" id="genero-f" type="radio" />
+                        <label for="genero-f">Feminino</label>                        
+                        <input name="genero" id="genero-m" type="radio" />
+                        <label for="genero-m">Masculino</label>
+                        <input name="genero" id="genero-n" type="radio" />
+                        <label for="genero-n">Não informar</label>                        
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" />
+                </div>
+                <div>
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password" />
+                </div>
+                <div>
+                    <label for="repete_senha">Repita a Senha</label>
+                    <input id="repete_senha" type="password" />
+                </div>
+                <input type="submit" value="Cadastrar" />
+            </form>
+        </main>
+        <footer>
+            <div>Contato: <a href="mailto:landia@cefetmg.br">landia@cefetmg.br</a></div>
+            <div>Powered by UNILESTE</div>
+        </footer>
+    </body>
+</html>
